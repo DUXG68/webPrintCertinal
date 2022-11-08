@@ -1,0 +1,76 @@
+@media print {
+    .nameInput{
+      font-size: 6vh !important;
+    }
+    .evaluateInput{
+      font-size: 4vh !important;
+    }
+    .dateInput{
+      font-size: 4vh !important;
+      bottom: 17% !important;
+    }
+    .left-side {
+      width: 100% !important;
+    }
+
+    .right-side {
+      display: none;
+    }
+  
+    .content-wrapper {
+      width: 100% !important;
+      height: 100% !important;
+      border: none !important;
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .content-wrapper {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .backG{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;  */
+  }
+  
+ .nameInput{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,0); 
+    font-family: 'Roboto Condensed', sans-serif;
+    top:42%;
+    font-size: 1.6vw;
+ }
+ .evaluateInput{
+    position: absolute;
+    text-align: center;
+    left: 27%;
+    /* transform: translate(-50%,0);  */
+    font-weight: normal ;
+    font-style: italic;
+    /* cursive */
+    top:52%;
+    font-size: 1vw;
+ }
+  .dateInput{
+    position: absolute;
+    text-align: center;
+    left: 56% ;
+    bottom:20%;
+    font-size: 1vw;
+  }
