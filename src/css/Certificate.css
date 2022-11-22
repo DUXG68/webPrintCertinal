@@ -1,19 +1,19 @@
 @media print {
      .nameInput{
-      left: 8.8cm !important;
-      top:10cm !important;
-      font-size: 48px !important;
+      left: 28vw !important;
+      top:47vh !important;
+      font-size: 6vh !important;
       
     }
     .evaluateInput{
-      left: 7.5cm !important;
-      top:12cm !important;
-      font-size: 30px !important;
+      left: 24vw !important;
+      top:57vh !important;
+      font-size: 3.75vh !important;
     }
     .dateInput{
-      left: 16.7cm !important ;
-      font-size: 30px !important;
-      bottom: 3.7cm !important;
+      left: 56.4vw !important ;
+      bottom: 17vh !important;
+      font-size: 3.75vh !important;
     } 
     .left-side {
       width: 100% !important;
@@ -70,6 +70,6 @@
     position: absolute;
     text-align: center;
     left: 334px;
-    bottom:74px;
+    bottom:72px;
     font-size: 16px;
   }
