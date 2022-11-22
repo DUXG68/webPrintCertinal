@@ -1,3 +1,9 @@
+@media screen and (max-width:1120px) {
+.left-side{
+  display: none !important;
+}
+  
+}
 .root {
   display: flex;
   align-items: center;
@@ -6,13 +12,20 @@
 }
 
 .left-side {
+  left: 0px;
   height: 100vh;
-  width: 60%;
+  width: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .right-side {
-  width: 40%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
