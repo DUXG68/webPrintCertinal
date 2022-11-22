@@ -1,14 +1,20 @@
 @media print {
-    .nameInput{
-      font-size: 6vh !important;
+     .nameInput{
+      left: 8.8cm !important;
+      top:10cm !important;
+      font-size: 48px !important;
+      
     }
     .evaluateInput{
-      font-size: 4vh !important;
+      left: 7.5cm !important;
+      top:12cm !important;
+      font-size: 30px !important;
     }
     .dateInput{
-      font-size: 4vh !important;
-      bottom: 17% !important;
-    }
+      left: 16.7cm !important ;
+      font-size: 30px !important;
+      bottom: 3.7cm !important;
+    } 
     .left-side {
       width: 100% !important;
     }
@@ -28,8 +34,8 @@
   }
   
   .content-wrapper {
-    width: 60%;
-    height: 60%;
+    width: 594px;
+    height: 420px;
     position: relative;
     border: 1px solid black;
     display: flex;
@@ -40,37 +46,30 @@
     height: 100%;
     width: 100%;
     object-fit: contain;
-    /* background-size: cover;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;  */
+
   }
   
  .nameInput{
     position: absolute;
     text-align: center;
-    left: 50%;
-    transform: translate(-50%,0); 
+    left: 160px;
     font-family: 'Roboto Condensed', sans-serif;
-    top:42%;
-    font-size: 1.6vw;
+    top:200px;
+    font-size: 25.6px;
  }
  .evaluateInput{
     position: absolute;
     text-align: center;
-    left: 27%;
-    /* transform: translate(-50%,0);  */
+    left: 136px;
     font-weight: normal ;
     font-style: italic;
-    /* cursive */
-    top:52%;
-    font-size: 1vw;
+    top:240px;
+    font-size: 16px;
  }
   .dateInput{
     position: absolute;
     text-align: center;
-    left: 56% ;
-    bottom:20%;
-    font-size: 1vw;
+    left: 334px;
+    bottom:74px;
+    font-size: 16px;
   }
