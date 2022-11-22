@@ -33,7 +33,7 @@ function App() {
           </div>
           <div className="mb-3">
             <label htmlFor="formGroupExampleInput2" className="form-label">Nhận xét</label>
-            <input type="text" className="form-control" id="formGroupExampleInput2" placeholder="Ex: for the great efforts in training and learning
+            <input type="text" className="form-control" id="formGroupExampleInput2" placeholder="Ex: for the great efforts ...
                " onChange={handleEvaluate} />
           </div>
           <div className="mb-3">
